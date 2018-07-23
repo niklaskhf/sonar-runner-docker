@@ -6,3 +6,4 @@ Alpine based docker container containing:
 - git 
 - curl 
 - sed
+- bash

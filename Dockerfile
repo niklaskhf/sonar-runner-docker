@@ -4,7 +4,7 @@ MAINTAINER Niklas Kammhoff <niklas@kammhoff.com>
 
 
 # install git / java / curl 
-RUN apk add --no-cache openjdk8 curl git unzip sed
+RUN apk add --no-cache openjdk8 curl git unzip sed bash
 
 # set env vars
 ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk
